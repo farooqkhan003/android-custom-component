@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context="com.androidtechpoint.customview.CardActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.androidtechpoint.customview.CustomComponents.Card
+                android:id="@+id/mycard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:description="This is a description and it could be a little bit long."
+                app:navigation_text="Read More"
+                app:src="@drawable/image"
+                app:title="This is a dummy title"></com.androidtechpoint.customview.CustomComponents.Card>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

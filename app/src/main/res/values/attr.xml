@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomComponent">
+        <attr name="caption" format="string"></attr>
+        <attr name="img_src" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="card">
+        <attr name="title" format="string" ></attr>
+        <attr name="description" format="string"></attr>
+        <attr name="src" format="integer"></attr>
+        <attr name="navigation_text" format="string"></attr>
+    </declare-styleable>
+</resources>
