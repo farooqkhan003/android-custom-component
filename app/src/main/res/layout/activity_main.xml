@@ -4,11 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.androidtechpoint.customview.MainActivity">
 
     <com.androidtechpoint.customview.CustomComponents.CustomComponent
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:caption="this is a caption"
-        app:img_src="@drawable/image"/>
+        app:img_src="@drawable/image" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="newActivity"
+        android:text="View Card Component" />
+
 </LinearLayout>
